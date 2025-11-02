@@ -16,6 +16,8 @@
   BR X3 Y3
   BL X4 Y4
   ```
+  - **Пример данных**:
+![Визуализация данных](https://github.com/Nazgul-123/licenseplate-corner-localization/blob/master/images/dataset_preview.png)
 
 ## Архитектура проекта
 
@@ -69,6 +71,9 @@ ONNX:     MAE 5.26 px, Speed 21.85 ms
 ```bash
 python inference_onnx.py --model models/yolo11n_pose.onnx --image test_image.png --output result.png
 ```
+**Демонстрация работы модели:**
+
+![Пример инференса](https://github.com/Nazgul-123/licenseplate-corner-localization/blob/master/images/result.png)
 
 ## Выводы
 
